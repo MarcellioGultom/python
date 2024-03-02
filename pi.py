@@ -1,1 +1,1 @@
-print ("marcel ganteng fakta")
+print ("marcel ganteng memang fakta & istrinya 7")
