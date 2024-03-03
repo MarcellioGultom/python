@@ -20,15 +20,15 @@ num2 = float(input("Masukkan nilai kedua: "))
 
 #operasi perhitungan
 if operasi == "+":
-    result = add(num1, num2)
+    hasil = add(num1, num2)
 elif operasi == "-":
-    result = subtract(num1, num2)
+    hasil = subtract(num1, num2)
 elif operasi == "*":
-    result = multiply(num1, num2)
+    hasil = multiply(num1, num2)
 elif operasi == "/":
-    result = divide(num1, num2)
+    hasil = divide(num1, num2)
 else:
-    result = "Operasi bilangan tidak valid"
+    hasil = "Operasi bilangan tidak valid"
 
 #Print hasil
-print(f"Result: {result}")
+print(f"Hasil: {hasil}")
