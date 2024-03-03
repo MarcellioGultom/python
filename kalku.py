@@ -14,18 +14,18 @@ def divide(x, y):
         return "Tidak bisa dibagi dengan nol"
 
 #masukkan input
-operation = input("Masukkan operasi bilangan (+, -, *, /): ")
+operasi = input("Masukkan operasi bilangan (+, -, *, /): ")
 num1 = float(input("Masukkan nilai pertama: "))
 num2 = float(input("Masukkan nilai kedua: "))
 
 #operasi perhitungan
-if operation == "+":
+if operasi == "+":
     result = add(num1, num2)
-elif operation == "-":
+elif operasi == "-":
     result = subtract(num1, num2)
-elif operation == "*":
+elif operasi == "*":
     result = multiply(num1, num2)
-elif operation == "/":
+elif operasi == "/":
     result = divide(num1, num2)
 else:
     result = "Operasi bilangan tidak valid"
